@@ -1367,7 +1367,7 @@ const App: React.FC = () => {
             opacity="0.55"
           >
            <path className="trace-path" d="M -20 120 H 240 L 320 170 " style={{ animationDelay: '0.1s' }} />
-            <path className="trace-path" d="M -20 500 H 180 L 240 440 H 520" style={{ animationDelay: '0.3s' }} />
+            
             <path className="trace-path" d="M 1220 90 H 900 L 840 150 V 260 L 780 320 H 640" style={{ animationDelay: '0.5s' }} />
             <path className="trace-path" d="M 1220 560 H 980 L 920 500 H 700 L 660 460" style={{ animationDelay: '0.7s' }} />
             <path className="trace-path" d="M 640 400 V 620" style={{ animationDelay: '0.9s' }} />
@@ -1375,7 +1375,7 @@ const App: React.FC = () => {
 
           <g fill="#4fdb82">
             <circle className="via-node" style={{ animationDelay: '1.6s' }} cx="325" cy="175" r="4" />
-            <circle className="via-node" style={{ animationDelay: '1.8s' }} cx="520" cy="440" r="4" />
+            
             <circle className="via-node" style={{ animationDelay: '1.9s' }} cx="840" cy="150" r="4" />
             <circle className="via-node" style={{ animationDelay: '2.0s' }} cx="780" cy="320" r="4" />
             <circle className="via-node" style={{ animationDelay: '2.1s' }} cx="920" cy="500" r="4" />
