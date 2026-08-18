@@ -1367,7 +1367,7 @@ const App: React.FC = () => {
             opacity="0.55"
           >
            <path className="trace-path" d="M -20 120 H 240 L 320 160 " style={{ animationDelay: '0.1s' }} />
-            <path className="trace-path" d="M -20 500 H 160 L 220 450 H 520" style={{ animationDelay: '0.3s' }} />
+            <path className="trace-path" d="M -20 500 H 160 L 220 460 H 520" style={{ animationDelay: '0.3s' }} />
             <path className="trace-path" d="M 1220 90 H 900 L 840 150 V 260 L 780 320 H 640" style={{ animationDelay: '0.5s' }} />
             <path className="trace-path" d="M 1220 560 H 980 L 920 500 H 700 L 660 460" style={{ animationDelay: '0.7s' }} />
             <path className="trace-path" d="M 640 400 V 620" style={{ animationDelay: '0.9s' }} />
