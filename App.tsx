@@ -760,11 +760,6 @@ const StatsAndTestimonials: React.FC = () => {
       label: 'PCB Design',
       value: 'Multi-Layer',
       icon: '▣'
-    },
-    {
-      label: 'Embedded Platforms',
-      value: 'STM32 / Arduino',
-      icon: '◉'
     }
   ];
 
@@ -787,7 +782,7 @@ const StatsAndTestimonials: React.FC = () => {
 
         </div>
 
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
+        <div className="grid grid-cols-1 sm:grid-cols-3 gap-8 max-w-4xl mx-auto">
 
           {stats.map((stat, index) => (
 
@@ -1829,7 +1824,7 @@ const App: React.FC = () => {
 
                   <div
                     key={index}
-                    className="flex items-center gap-3 py-2 border-b border-slate-800/80"
+                    className="flex items-center gap-3 py-2 border-b border-slate-800/80 whitespace-nowrap"
                   >
 
                     <span className="font-mono text-[10px] text-copper-500/80 shrink-0 w-6">
