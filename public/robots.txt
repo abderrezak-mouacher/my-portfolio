@@ -1,0 +1,6 @@
+# robots.txt for Abderrahmane Hachemane portfolio
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://abderrahemane-hachemane.netlify.app/sitemap.xml

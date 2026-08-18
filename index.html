@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+
+  <!-- Google Search Console verification -->
+  <meta name="google-site-verification" content="LeFAII3tN2KDOMKqfJiuHNoUsBgsxCGM6UOFcOGZjOM" />
+
+  <!-- Responsive -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- Primary SEO -->
+  <title>Abderrezak Mouacher  | Electronics & Embedded Systems Engineer</title>
+  <meta
+    name="description"
+    content="Electronics and Embedded Systems Engineer specialized in PCB design, embedded systems, STM32, electronic board validation, EMC compliance, SMT production, and industrial electronics.."
+  />
+  <meta name="author" content="Abderrezak Mouacher" />
+  <meta
+    name="keywords"
+    content="Abderrezak Mouacher, Electronics Engineer, Embedded Systems Engineer, PCB Design, STM32,KiCad, EMC, SMT"
+  />
+  <meta name="robots" content="index, follow" />
+
+  <!-- Open Graph / LinkedIn / WhatsApp -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Abderrezak Mouacher | Electronics & Embedded Systems Engineer" />
+  <meta
+    property="og:description"
+    content="Electronics and Embedded Systems Engineer specialized in PCB design, embedded systems, STM32, electronic validation, EMC compliance, and SMT production."
+  />
+  <meta property="og:image" content="https://images.unsplash.com/photo-1581092160562-40aa08e78837?auto=format&fit=crop&w=1200&q=80" />
+  <meta property="og:url" content="https://abderrahemane-hachemane.netlify.app/" />
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Abderrezak Mouacher | Electronics & Embedded Systems Engineer" />
+  <meta
+    name="twitter:description"
+    content="Electronics and Embedded Systems Engineer specialized in PCB design, STM32, embedded systems, EMC compliance, validation, and SMT production."
+  />
+  <meta name="twitter:image" content="https://images.unsplash.com/photo-1581092160562-40aa08e78837?auto=format&fit=crop&w=1200&q=80" />
+  <meta property="og:site_name" content="Abderrezak Mouacher" />
+  <meta property="og:locale" content="en_US" />
+  <meta name="twitter:creator" content="@abderrezak" />
+  <meta name="theme-color" content="#05070a" />
+  <link rel="canonical" href="https://abderrahemane-hachemane.netlify.app/" />
+  <link rel="sitemap" type="application/xml" title="Sitemap" href="/sitemap.xml" />
+
+  <!-- Structured Data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Person",
+        "@id": "https://abderrahemane-hachemane.netlify.app/#person",
+        "name": "Abderrezak Mouacher",
+        "url": "https://abderrahemane-hachemane.netlify.app/",
+        "sameAs": ["https://www.linkedin.com/in/abderrezak-mouacher-8b0529229/"],
+        "jobTitle": "Electronics and Embedded Systems Engineer"
+      },
+      {
+        "@type": "WebSite",
+        "url": "https://abderrahemane-hachemane.netlify.app/",
+        "name": "Abderrezak Mouacher Portfolio",
+        "description": "Portfolio of an Electronics and Embedded Systems Engineer specialized in PCB design, STM32, embedded systems, EMC compliance, validation, and SMT production"
+      }
+    ]
+  }
+  </script>
+
+  <!-- Analytics placeholders removed. Add Google Analytics or Plausible only when configured with a real measurement ID or domain. -->
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@300;400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500;600&display=swap"
+    rel="stylesheet"
+  />
+
+  <!-- Tailwind -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            // Signal trace / oscilloscope accent (formerly copper)
+            copper: {
+              50: '#eafbfa',
+              100: '#c9f2ef',
+              200: '#96e2dd',
+              300: '#63cec7',
+              400: '#3fb3ac',
+              500: '#2c948e',
+              600: '#227672',
+              700: '#1c5e5b',
+              800: '#164947',
+              900: '#123736',
+              950: '#0b2221'
+            },
+            // Phosphor / status LED green
+            phosphor: {
+              400: '#7ef2a0',
+              500: '#4fdb82',
+              600: '#33c26a'
+            }
+          },
+          fontFamily: {
+            display: ['"Space Grotesk"', 'sans-serif'],
+            sans: ['Inter', 'sans-serif'],
+            mono: ['"JetBrains Mono"', 'monospace']
+          }
+        }
+      }
+    };
+  </script>
+
+  <!-- Global styles -->
+  <style>
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      font-family: 'Inter', sans-serif;
+      background-color: #05070a;
+      color: #f1f5f4;
+      position: relative;
+    }
+
+    h1, h2, h3, h4,
+    nav .brand-mark {
+      font-family: 'Space Grotesk', sans-serif;
+      letter-spacing: -0.02em;
+    }
+
+    /* Faint PCB substrate texture: solder-mask grid + copper vias */
+    body::before {
+      content: '';
+      position: fixed;
+      inset: 0;
+      z-index: 0;
+      pointer-events: none;
+      opacity: 0.55;
+      background-image:
+        linear-gradient(rgba(185, 119, 60, 0.05) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(185, 119, 60, 0.05) 1px, transparent 1px),
+        radial-gradient(rgba(79, 219, 130, 0.08) 1px, transparent 1.4px);
+      background-size: 48px 48px, 48px 48px, 96px 96px;
+      background-position: 0 0, 0 0, 24px 24px;
+    }
+
+    #root {
+      position: relative;
+      z-index: 1;
+    }
+
+    @keyframes fadeInZoom {
+      from {
+        opacity: 0;
+        transform: scale(0.95);
+      }
+      to {
+        opacity: 1;
+        transform: scale(1);
+      }
+    }
+
+    img[class*="animate-in"] {
+      animation: fadeInZoom 0.7s cubic-bezier(0.34, 1.56, 0.64, 1);
+    }
+
+    .mono {
+      font-family: 'JetBrains Mono', monospace;
+    }
+
+    /* Trace-draw animation used by hero circuit diagram */
+    @keyframes traceDraw {
+      to {
+        stroke-dashoffset: 0;
+      }
+    }
+
+    .trace-path {
+      stroke-dasharray: 600;
+      stroke-dashoffset: 600;
+      animation: traceDraw 2.4s ease-out forwards;
+    }
+
+    .via-node {
+      opacity: 0;
+      animation: fadeInZoom 0.5s ease-out forwards;
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      .trace-path,
+      .via-node,
+      img[class*="animate-in"] {
+        animation: none !important;
+        stroke-dashoffset: 0 !important;
+        opacity: 1 !important;
+      }
+    }
+
+    ::-webkit-scrollbar {
+      width: 10px;
+    }
+
+    ::-webkit-scrollbar-track {
+      background: #0b0f0d;
+    }
+
+    ::-webkit-scrollbar-thumb {
+      background: #1c5e5b;
+      border-radius: 4px;
+    }
+
+    ::-webkit-scrollbar-thumb:hover {
+      background: #227672;
+    }
+  </style>
+
+</head>
+
+<body>
+  <div id="root"></div>
+
+  <!-- Noscript fallback: basic contact form submits directly to Formspree when JS is disabled -->
+  <noscript>
+    <div style="background:#05070a;color:#f1f5f4;padding:20px;margin:20px;border-radius:12px;max-width:720px;">
+      <p style="font-weight:700;margin-bottom:8px;">Contact (No JavaScript)</p>
+      <form action="https://formspree.io/f/mjgozwgo" method="POST">
+        <div style="margin-bottom:8px;"><label style="font-size:12px;display:block;margin-bottom:4px;">Name<input name="name" required style="width:100%;padding:8px;border-radius:8px;border:1px solid #334155;background:#0b1220;color:#fff;"/></label></div>
+        <div style="margin-bottom:8px;"><label style="font-size:12px;display:block;margin-bottom:4px;">Email<input name="_replyto" type="email" required style="width:100%;padding:8px;border-radius:8px;border:1px solid #334155;background:#0b1220;color:#fff;"/></label></div>
+        <div style="margin-bottom:8px;"><label style="font-size:12px;display:block;margin-bottom:4px;">Role<input name="identity" style="width:100%;padding:8px;border-radius:8px;border:1px solid #334155;background:#0b1220;color:#fff;"/></label></div>
+        <div style="margin-bottom:8px;"><label style="font-size:12px;display:block;margin-bottom:4px;">Message<textarea name="message" required rows="4" style="width:100%;padding:8px;border-radius:8px;border:1px solid #334155;background:#0b1220;color:#fff;"></textarea></label></div>
+        <input type="hidden" name="_subject" value="Portfolio Contact Message" />
+        <button type="submit" style="background:#2c948e;color:#05070a;padding:10px 14px;border-radius:10px;border:none;font-weight:700;">Send</button>
+      </form>
+    </div>
+  </noscript>
+
+  <script type="module" src="/index.tsx"></script>
+</body>
+</html>
