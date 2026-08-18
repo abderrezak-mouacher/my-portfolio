@@ -1375,7 +1375,7 @@ const App: React.FC = () => {
 
           <g fill="#4fdb82">
             <circle className="via-node" style={{ animationDelay: '1.6s' }} cx="325" cy="163" r="4" />
-            <circle className="via-node" style={{ animationDelay: '1.8s' }} cx="520" cy="450" r="4" />
+            <circle className="via-node" style={{ animationDelay: '1.8s' }} cx="520" cy="460" r="4" />
             <circle className="via-node" style={{ animationDelay: '1.9s' }} cx="840" cy="150" r="4" />
             <circle className="via-node" style={{ animationDelay: '2.0s' }} cx="780" cy="320" r="4" />
             <circle className="via-node" style={{ animationDelay: '2.1s' }} cx="920" cy="500" r="4" />
