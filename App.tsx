@@ -898,7 +898,7 @@ const App: React.FC = () => {
     useState<string | null>(null);
 
   const FORM_ENDPOINT =
-    'https://formspree.io/f/mjgozwgo';
+    'https://formspree.io/f/meajvlwl';
 
 
   // ============================================================
