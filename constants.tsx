@@ -26,7 +26,7 @@ export const PROJECTS: Project[] = [
     id: 'industrial-power-meter',
     title: 'Industrial Power Meter for High-Voltage Measurement',
     category: 'Embedded Systems & Measurement',
-    description: 'Designed an power measurement solution capable of measuring phase-to-phase voltages up to 650 V, with RS-485 and TCP/IP connectivity for industrial monitoring.',
+    description: 'Designed and developed the hardware of an industrial power meter for three-phase systems, measuring phase-to-phase voltages up to 690 V and currents from 6 mA to 6 A. The STM32-based system features RS-485 (Modbus RTU) and Ethernet (Modbus TCP/IP) interfaces for industrial monitoring and communication.',
     technologies: ['STM32', 'Voltage Measurement', 'ADC', 'RS-485', 'TCP/IP', 'PCB Design'],
     images: getProjectImages('adk400'),
     localVideos: getProjectVideos('adk400'),
@@ -51,7 +51,7 @@ export const PROJECTS: Project[] = [
     id: 'soft-starter-rs485',
     title: 'Industrial Soft Starter with Integrated RS-485 Communication',
     category: 'Power Electronics & Embedded Systems',
-    description:     'Designed the hardware of an industrial soft starter based on thyristor phase-angle control, with a touchscreen HMI for monitoring and RS-485 communication for control and system integration.',
+    description:     'Designed and developed the hardware of a soft starter system for AC induction motors, focusing on industrial applications. The design utilizes thyristor-based phase-angle control to gradually ramp up motor voltage, reducing inrush current and mechanical stress. The hardware is built around an STM32 microcontroller and includes an LCD-based interface, protection circuits, and RS-485 communication for system integration. Designed with EMC considerations for integration into industrial automation panels, with applications including pumps, conveyors, and compressors.',
     technologies: ['Thyristor Control', 'STM32', 'RS-485', 'Embedded Systems', 'PCB Design','Power Electronics', 'Industrial Electronics'],
     images: getProjectImages('softstarter'),
     localVideos: getProjectVideos('softstarter'),
@@ -75,7 +75,7 @@ export const PROJECTS: Project[] = [
     id: 'industrial-io-modbus-ppoe',
     title: 'Industrial I/O Device with Modbus TCP/IP and 4PPoE',
     category: 'Industrial Automation & Networking',
-    description: 'Designed an industrial I/O device using Modbus TCP/IP and 4-pair Power over Ethernet (4PPoE), combining network communication and power delivery for automation applications.',
+    description: 'Designed and developed the hardware   of an I/O device capable of reading sensor data via the I²C bus and transmitting it to a PLC using the Modbus TCP/IP protocol. The design consolidates multiple I/O devices into a single Ethernet port, reducing costs associated with expansion modules and sensor power cabling',
     technologies: ['STM32', 'Modbus TCP/IP', '4PPoE', 'Ethernet', 'Industrial I/O', 'PCB Design'],
     images: getProjectImages('io-device'),
     localVideos: getProjectVideos('io-device'),
@@ -100,7 +100,7 @@ export const PROJECTS: Project[] = [
     id: 'rtd8-io-module',
     title: 'RTD8 – 8-Channel RTD I/O Module with RS-485',
     category: 'Industrial Electronics',
-    description: 'Designed an 8-channel RTD I/O module for industrial temperature acquisition, with PT100 inputs, relay outputs, and RS-485 communication.',
+    description: 'Designed and developed the hardware of an industrial multi-point temperature monitoring module supporting 8 independent RTD channels with PT100 sensors in 2-, 3-, and 4-wire configurations, covering a measurement range of –200°C to +850°C. The module integrates an LCD TFT touchscreen, RS-485 Modbus RTU, and four dedicated relay outputs for trip, alarm, fan, and fault functions, making it suitable for critical applications such as motor winding protection',
     technologies: ['PT100', 'STM32', 'RS-485', 'PCB Design', 'KiCad', 'Industrial I/O'],
     images: getProjectImages('rtd8'),
     localVideos: getProjectVideos('rtd8'),
@@ -120,7 +120,7 @@ export const PROJECTS: Project[] = [
     id: 'stm32h7-hmi-development-board',
     title: 'STM32H7 Embedded HMI Development Board',
     category: 'Embedded Hardware & HMI',
-    description: 'Designed a 4-layer STM32H7-based development board for embedded HMI applications, integrating display interfaces, external memory, wireless connectivity, USB-C, touchscreen support, and backlight power.',
+    description: 'Designed a 4-layer development board based on the STM32H7B0VBT6 microcontroller for advanced embedded and HMI applications. The board integrates display interfaces (LTDC) with touchscreen support, 64 MB external PSRAM via QSPI, Wi-Fi/Bluetooth connectivity, USB-C power input, and a boost converter providing up to 35 V for LCD backlight power. ',
     technologies: ['STM32H7B0VBT6', 'LTDC', 'QSPI PSRAM', 'USB-C', 'Touchscreen', '4-Layer PCB', 'MIPI DSI' , 'MIPI DPI', 'KiCad'],
     images: getProjectImages('stm32h7'),
     localVideos: getProjectVideos('stm32h7'),
@@ -147,7 +147,7 @@ export const PROJECTS: Project[] = [
   category: 'Embedded Systems & Industrial Electronics',
 
   description:
-    'Designed and developed an STM32H7-based HMI display card supporting LCD, RGB/MIPI DPI, and MIPI DSI interfaces, with capacitive touchscreen support and flexible display connectivity for embedded and industrial applications.',
+    'Designed and developed a versatile HMI display card supporting multiple display interfaces, including LCD, MIPI DPI (RGB), and MIPI DSI. Integrated touchscreen support for flexible user interaction, with compatibility across a wide range of cost-effective display technologies for embedded and industrial applications.',
 
   technologies: [
     'STM32',
